@@ -1,0 +1,96 @@
+body
+{
+  background: lightpink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: white;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px;
+}
+.container .left-side
+{
+    position: relative;
+    background: midnightblue;
+    padding: 40px;
+}
+.profiletext
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray; 
+}
+
+.imgbox
+{
+    position:relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+    overflow: hidden;
+    
+}
+
+.imgbox img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profiletext h2
+{
+    color: whitesmoke;
+   /* font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 2px;
+    font-weight: 600;*/
+}
+.Contact
+{
+    color: burlywood;
+    text-align: center;
+    border-bottom: 1px solid coral;
+}
+.Education
+{
+    color: burlywood;
+    text-align: center;
+    border-bottom: 1px solid coral;
+}
+.LANGUAGE
+{
+    color: burlywood;
+    text-align: center;
+    border-bottom: 1px solid coral;
+}
+
+.container .right-side
+{
+    position: relative;
+    background-color: white;
+    padding: 40px;
+}
+.Experience
+{
+    color: darkblue;
+    border-bottom: 1px solid  coral;
+}
